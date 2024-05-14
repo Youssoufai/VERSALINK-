@@ -1,0 +1,17 @@
+header {
+    background-color: #141414;
+    color: #ae7d01;
+}
+
+#nav {
+    padding: 2rem;
+    background: #ae7d01;
+    color: #141414;
+    border-radius: 50px;
+}
+
+.hero {
+    height: 88vh;
+    background: #141414;
+    ;
+}
