@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <>
             <header
-                className='flex justify-between p-4 items-center'
+                className='flex justify-between py-7 px-7 items-center'
             >
                 <div>
                     <h1
@@ -12,24 +12,26 @@ const Navbar = () => {
                     >Versalink</h1>
                 </div>
                 <ul
-                    className='flex px-1 font-sans text-xl'
+                    className='flex gap-2 font-sans text-xl w-1/3 justify-center'
                     id='nav'
                 >
                     <li
-                        className='px-3'
-                    >Home</li>
+                        className='px-5'
+                        id='test'
+                    >VDI</li>
                     <li
                         className='px-3'
-                    >About</li>
+                    >Versalink Post</li>
                     <li
                         className='px-3'
-                    >Contact Us</li>
-                    <li
-                        className='px-3'
-                    >More</li>
+                    >Clothing Brand</li>
                 </ul>
-                <div>
-                    <button>Sign up</button>
+                <div
+
+                >
+                    <button
+
+                    >Sign up</button>
                 </div>
             </header>
         </>
